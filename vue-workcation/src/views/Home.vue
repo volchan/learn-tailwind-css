@@ -5,9 +5,9 @@
         class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
       >
         <div class="xl:max-w-lg xl:ml-auto">
-          <h1 class="text-indigo-500 h-10 text-5xl font-bold">Workcation</h1>
+          <h1 class="text-brand-blue h-10 text-5xl font-bold">Workcation</h1>
           <img
-            class="mt-6 rounded-lg shadow-lg sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+            class="mt-6 rounded-lg shadow-lg sm:mt-8 sm:h-88 sm:w-full sm:object-cover sm:object-center lg:hidden"
             src="../assets/images/beach-work.jpg"
             alt="beach work"
           />
@@ -15,7 +15,7 @@
             class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
           >
             You can work from anywhere.<br />
-            <span class="text-indigo-500">Take advantage of it.</span>
+            <span class="text-brand-blue">Take advantage of it.</span>
           </h1>
           <p class="mt-2 text-gray-600 sm:mt-2 sm:text-xl">
             Workcation helps you find work-friendly rentals in beautiful
@@ -23,7 +23,7 @@
             vacation.
           </p>
           <div class="mt-4 sm:mt-6">
-            <a href="#" class="btn btn-indigo shadow-lg sm:text-base"
+            <a href="#" class="btn bg-brand-blue text-white shadow-lg sm:text-base"
               >Book your escape</a
             >
             <a href="#" class="ml-2 btn btn-gray sm:text-base">Learn more</a>

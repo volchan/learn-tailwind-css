@@ -15,7 +15,7 @@
       <div class="mt-4">
         <a
           href=""
-          class="text-indigo-500 hover:text-indigo-400 font-semibold text-sm"
+          class="text-brand-blue hover:text-indigo-400 font-semibold text-sm"
           >Explore {{ destination.propertyCount }} properties</a
         >
       </div>
