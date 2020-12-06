@@ -1,6 +1,9 @@
 <template>
   <div class="bg-white border rounded-lg overflow-hidden">
-    <img :src="property.imageUrl" :alt="property.imageAlt" />
+    <!-- for IE11
+      <div class="h-48 bg-cover bg-center" :style="{backgroundImage: `url(${property.imageUrl}`}"/>
+    -->
+    <img class="h-48 w-full object-cover" :src="property.imageUrl" :alt="property.imageAlt" />
     <div class="p-6">
       <div class="flex items-baseline">
         <span class="inline-block bg-teal-300 text-teal-700 font-semibold text-xs px-2 rounded-full uppercase">New</span>
