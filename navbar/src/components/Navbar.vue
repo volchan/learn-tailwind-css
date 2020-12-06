@@ -34,6 +34,7 @@
         class="block mt-1 sm:mt-0 sm:ml-2 px-2 py-1 text-white font-semibold rounded hover:bg-gray-800"
         >Messages</a
       >
+      <AccountDropdown class="ml-6" />
     </div>
   </header>
 </template>
@@ -41,8 +42,11 @@
 <script>
 import { CubeTransparentIcon, MenuIcon, XIcon } from '@vue-hero-icons/solid';
 
+import AccountDropdown from './AccountDropdown.vue';
+
 export default {
   components: {
+    AccountDropdown,
     CubeTransparentIcon,
     MenuIcon,
     XIcon,
